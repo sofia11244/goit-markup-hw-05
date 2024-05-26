@@ -594,3 +594,60 @@ h3 {
     fill:#f4f4fd;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.footer-form-text{
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.footer-form{
+    display: flex;
+}
+
+.footer-form-label{
+    gap: 24px;
+}
+
+.footer-form-input{
+    width: 264px;
+    height: 40px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow:0px 4px 4px rgba(0,0,0,0.15);
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.footer-form-input ::placeholder{
+    color: #FFFFFF;
+}
+
+.footer-form-label-button{
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+}
+
+.footer-form-label-button-svg{
+    margin-left: 16px;
+}
