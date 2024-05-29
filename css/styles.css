@@ -763,7 +763,7 @@ h3 {
 
 .modal-menu-form-group-icon:hover,
 .modal-menu-form-group-icon:focus{
-    border: #4D5AE5;
+    border-color: #4D5AE5;
 }
 
 .modal-menu-form-group-icon{
