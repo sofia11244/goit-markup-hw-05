@@ -517,7 +517,6 @@ h3 {
 }
 
 .footer-container{
-    display:flex;
     align-items:baseline;
 }
 
@@ -535,7 +534,6 @@ h3 {
     text-decoration: none;
     display: inline-block;
     margin-bottom: 16px;
-    display: inline-block;
 }
 
 .footer-logo {
@@ -547,10 +545,6 @@ h3 {
     color: #f4f4fd;
     letter-spacing: 0.02em;
     max-width: 264px;
-}
-
-.footer-form-container{
-    gap:24px;
 }
 
 .footer-container-social-item{
@@ -622,7 +616,7 @@ h3 {
     box-shadow:0px 4px 4px rgba(0,0,0,0.15);
     border-radius: 4px;
     color: #FFFFFF;
-    gap: 24px;
+
 }
 
 .footer-form-input ::placeholder{
@@ -645,6 +639,7 @@ h3 {
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
+
 }
 
 .footer-form-label-button-svg{
@@ -704,6 +699,7 @@ h3 {
 
 .modal-menu-button-icon{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 }
 
 .modal-menu-button-icon-alt:hover
@@ -740,9 +736,10 @@ h3 {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: transparent;
-    padding-left: 38px;outline: transparent;
+    padding-left: 38px;
+    outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    border-color: #4D5AE5
+    border-color: #4D5AE5;
 }
 
 .modal-menu-form-group-input:hover
@@ -751,11 +748,15 @@ h3 {
 }
 
 .modal-menu-form-group-icon{
-    position: absolute;
+    position: relative;
     left: 16px;
-    top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    top:50%;
+}
+
+.modal-menu-form-group-icon:focus{
+    fill: #4D5AE5;
 }
 
 .modal-menu-form-text{
