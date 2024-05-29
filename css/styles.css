@@ -761,9 +761,9 @@ h3 {
     border: 1px solid rgba(46, 47, 66, 0.4);    
 }
 
-.modal-menu-form-group-input:hover
-.modal-menu-form-group-input:focus {
-    fill: #4D5AE5;
+.modal-menu-form-group-icon:hover,
+.modal-menu-form-group-icon:focus{
+    border: #4D5AE5;
 }
 
 .modal-menu-form-group-icon{
