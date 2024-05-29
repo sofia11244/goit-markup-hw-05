@@ -829,7 +829,7 @@ h3 {
     fill: transparent;
 }
 
-.modal-menu-form-alt-label-checkbox:checked + .modal-menu-form-alt-label-checkbox-text-alt .modal-menu-form-alt-label-checkbox-text{
+.modal-menu-form-alt-label-checkbox:checked + .modal-menu-form-alt-label-checkbox-text .modal-menu-form-alt-label-checkbox-text-alt{
     background-color: #404bbf;
     border: none;
     fill:#f4f4fd
