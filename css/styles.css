@@ -837,7 +837,10 @@ h3 {
 
 .modal-menu-form-alt-label-checkbox-text-alt-privacy-link{
     color: #4D5AE5;
+    cursor:pointer
 }
+
+
 
 .modal-menu-form-alt-label-checkbox-text-alt-button{
     display: block;
